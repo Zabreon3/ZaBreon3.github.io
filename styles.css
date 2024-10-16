@@ -1,9 +1,39 @@
 body {
-    background-color: cyan;
+    background-color: rgba(114, 196, 163, 0.989);
     font-family: 'Times New Roman', Times, serif;
 }
 
 h1 {
-    color:blueviolet;
+    color:rgb(28, 44, 77);
     text-align: center;
 }
+
+.projects { 
+    display:flex; 
+    flex-wrap:wrap; 
+} 
+.project {
+width: 30%;
+margin: 10px;
+padding: 20px 10px;
+background: white; 
+border-radius: 25%;
+}
+
+.project img{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border: 2px solid rgb(114, 196, 163, 0.989); /* choose a color */
+    display: block;
+    margin: auto;
+    }
+
+    a { 
+        text-decoration: none;
+        color: rgb(28, 44, 77);
+        }
+        .project p { 
+        text-align: center;
+        margin: 15px;
+        }
